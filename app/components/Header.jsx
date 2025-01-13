@@ -20,9 +20,9 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <a href="#latest" className="hover:text-orange-500">
+            <Link href="/latest" className="hover:text-orange-500">
               Latest Recipes
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="flex items-center space-x-4">
