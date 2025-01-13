@@ -10,7 +10,7 @@ export default function SuperDelicious() {
       return b.rating.rating_count - a.rating.rating_count;
     })
     .slice(0, 3);
-  console.log(sortByRatingCount);
+
   return (
     <section className="mb-16" id="super_delicious">
       <h2 className="text-3xl font-bold mb-8">Super Delicious</h2>
