@@ -1,5 +1,5 @@
 import React from "react";
-import Category from "../components/category";
+import Category from "../components/Category";
 import categories from "../../data/categories.json";
 
 export default function CategoriesPage() {
